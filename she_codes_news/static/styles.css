@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@600&display=swap');
 
 body {
     background-color: rgb(240, 239, 239);
@@ -11,22 +11,23 @@ header {
     border-bottom: 1px solid #000;
 }
 
-img {
-    filter: grayscale(100%);
-}
+/* img {
+    filter: grayscale(100%); */
+/* } */
 
 h1 {
-    font-family: 'Montserrat Subrayada', sans-serif;
+    font-family: 'Jost', sans-serif;
     text-decoration: none;
     font-size: 4rem;
     margin: 0;
 }
 
 h2 {
-   font-family: 'Montserrat Subrayada', sans-serif; 
+   font-family: 'Jost', sans-serif; 
 }
 
 h3 {
+    font-family: 'Jost', sans-serif; 
     font-size: 2rem;
     margin: 0;
 }
@@ -46,7 +47,7 @@ nav {
 a {
     margin: 2px;
     text-decoration: none;
-    color: #000;
+    color: rgb(78, 9, 110);
 }
 
 a, p {
