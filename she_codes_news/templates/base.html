@@ -17,7 +17,7 @@
         <header>
             <div id="header-text">
                 <a id="header-link" href="{% url 'news:index' %}">
-                    <h1><img src="../static/she_codes_news/images/scnbanner.gif"></h1>
+                    <h1><img src="{% static 'images/scnbanner.gif' %}"></h1>
                 </a>
             </div>
             {% include './nav.html' %}

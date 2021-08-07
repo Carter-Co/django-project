@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@600&display=swap');
 
 body {
-    background-color: rgb(3, 3, 3);
+    background-color: rgb(7, 7, 7);
+    color: #fff
 }
+html{color: #fff}
 
 header {
     /* display: flex;
@@ -11,7 +13,6 @@ header {
     border-bottom: 1px solid #000; */
     width: 100vw;
     height: auto;
-
 }
 
 /* img {
@@ -38,6 +39,7 @@ h3 {
 #header-text {
     flex-basis: 80%;
     display: flex;
+    color:rgb(243, 242, 243)
 }
 
 nav {
