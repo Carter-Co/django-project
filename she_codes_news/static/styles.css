@@ -1,14 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@600&display=swap');
 
 body {
-    background-color: rgb(240, 239, 239);
+    background-color: rgb(3, 3, 3);
 }
 
 header {
-    display: flex;
+    /* display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid #000; */
+    width: 100vw;
+    height: auto;
+
 }
 
 /* img {
@@ -38,16 +41,24 @@ h3 {
 }
 
 nav {
-    flex-basis: 20%;
+    /* flex-basis: 20%;
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: flex-end; */
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    font: 120% system-ui;
+    text-align: center;
+    padding: 0px 0px;   
+    background-color: blueviolet;
+    color: #fff;
 }
 
 a {
     margin: 2px;
     text-decoration: none;
-    color: rgb(78, 9, 110);
+    color: rgb(243, 242, 243);
 }
 
 a, p {

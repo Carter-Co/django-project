@@ -12,7 +12,6 @@ class AddStoryView(generic.CreateView):
     def form_valid(self, form):
         form.instance.author = self.request.user
         return super().form_valid(form)
-    
 
 class IndexView(generic.ListView):
     template_name = 'news/index.html'
@@ -27,8 +26,8 @@ class IndexView(generic.ListView):
         context['all_stories'] = NewsStory.objects.all()
         return context
 
-
 class StoryView(generic.DetailView):
     model = NewsStory
     template_name = 'news/story.html'
     context_object_name = 'story'
+
